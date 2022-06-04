@@ -1,0 +1,66 @@
+@mixin flexProp($prop, $colgap) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $prop;
+    row-gap: $colgap;
+    align-items: center;
+}
+
+
+.sidebar,
+.mobile-sidebar {
+    position: fixed;
+    @include flexProp(space-between, '');
+    left: 0px;
+    top: 5%;
+    width: 120px;
+    height: 92vh;
+    background-color: #fff;
+    border-right: 0.5px solid #777;
+    z-index: 99;
+
+    &_links {
+        height: 280px;
+        @include flexProp(flex-start, 50px);
+
+        & div {
+            width: 80px;
+            height: 80px !important;
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+
+            & div img {
+                z-index: 999;
+            }
+        }
+
+        &>div:hover:not(.sidebar_logo) {
+            background-color: #EBF2FF;
+            border-radius: 12px;
+        }
+
+        & .sidebar_active {
+            background-color: #EBF2FF !important;
+        }
+
+    }
+
+    .sidebar_profile {
+        cursor: pointer;
+    }
+
+}
+
+.mobile-sidebar {
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width : 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .mobiel-sidebar {}
+}
