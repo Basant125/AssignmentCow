@@ -53,7 +53,7 @@ const Login = () => {
                 <div className="form-group">
                     <input
                         type={"submit"}
-                        value="Register"
+                        value="Login"
                         className="submit-btn"
                         onClick={handleLogin}
                     />

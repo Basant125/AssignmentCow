@@ -57,7 +57,7 @@ const Signup = () => {
                     <input
                         type={"submit"}
                         value="Register"
-                        className="submit-btn"
+                        className="submit-btn register-btn"
                         onClick={Register}
                     />
                 </div>

@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
 import { Link } from 'react-router-dom'
-import heroImg from './asset/hero-img.png'
+import heroImg from './asset/heroimg.png'
 import img1 from './asset/img1.png'
 import img2 from './asset/img2.png'
 import img3 from './asset/img3.png'
