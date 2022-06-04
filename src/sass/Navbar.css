@@ -1,0 +1,136 @@
+.navbar {
+  height: 90px;
+  width: 100%;
+  padding: 0px 25px;
+  margin: 0px 0px 0px 140px;
+  border-bottom: 0.5px solid #7777;
+}
+
+.navbar_container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar_container .logo_box {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.navbar_container .logo_box .menu {
+  display: none;
+}
+
+.navbar_container .logo_box .select-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.navbar_container .logo_box .mobile-text {
+  display: none;
+}
+
+.navbar_container .logo_box .select-bx .desc-text,
+.navbar_container .logo_box .select-bx .mobile-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbar_container .arrow_down {
+  margin-top: 10px;
+}
+
+.navbar_container .nav-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.navbar_container .nav-btns .cancel-btn {
+  background-color: #F1F1F1 !important;
+  color: #999999 !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar_container .nav-btns .save-btn {
+  font-family: "Roboto", sans-serif;
+  color: #fff !important;
+  background-color: #46B13D !important;
+}
+
+@media screen and (max-width: 480px) {
+  .logo_box {
+    width: 160px !important;
+    -webkit-column-gap: 22px !important;
+            column-gap: 22px !important;
+  }
+  .logo_box .select-bx {
+    -webkit-column-gap: 10px !important;
+            column-gap: 10px !important;
+  }
+  .logo_box .select-bx .mobile-text {
+    display: block;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    margin-left: 0px;
+    padding: 0px 10px;
+  }
+  .navbar .logo_box {
+    width: 300px;
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .navbar .logo_box .select-bx .desc-text {
+    display: none;
+  }
+  .navbar .logo_box .select-bx .mobile-text {
+    display: block;
+    font-size: 16px;
+  }
+  .navbar .logo_box .menu {
+    display: block;
+  }
+  .navbar .logo_box .menu-bar {
+    font-size: 32px;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

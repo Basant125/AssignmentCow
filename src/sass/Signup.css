@@ -1,0 +1,113 @@
+.signup {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup-container {
+  width: 450px;
+  min-width: 120px;
+  text-align: center;
+  height: auto;
+  min-height: 300px;
+  margin-top: 50px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.signup-heading {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.signup .form {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.signup .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 5px 0px;
+  width: 50%;
+}
+
+.signup .form-group > label {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #222;
+}
+
+.signup .form > input {
+  width: 80%;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  outline: none;
+}
+
+.signup .form > input:focus {
+  border: 1px solid gray;
+}
+
+.signup .register-btn {
+  width: 40%;
+}
+
+.signup .submit-btn {
+  width: 30% !important;
+  height: 35px !important;
+  padding: 6px 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  border: none !important;
+  cursor: pointer;
+  background-color: crimson !important;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.signup .submit-btn:hover {
+  background-color: #000 !important;
+}
+/*# sourceMappingURL=Signup.css.map */
